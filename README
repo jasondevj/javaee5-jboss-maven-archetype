@@ -1,0 +1,10 @@
+Install
+--------
+
+mvn clean install; mvn install:install-file -Dfile=./target/javaee5-jboss-maven-archetype-1.0.jar -DgroupId=javaee5-jboss-maven -DartifactId=javaee5-jboss-maven-archetype -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
+
+Generate Archetype
+-------------------
+
+mvn archetype:generate -B -DarchetypeGroupId=javaee5-jboss-maven-archetype -DarchetypeArtifactId=javaee5-jboss-maven-archetype -DarchetypeVersion=1.0 -DgroupId=<your group> -DartifactId=<your artifactId>
+
