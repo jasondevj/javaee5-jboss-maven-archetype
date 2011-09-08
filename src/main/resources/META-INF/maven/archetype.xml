@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<archetype>
+    <id>javaee5-jboss-maven-archetype</id>
+    <sources>
+        <!--<source>ejb/src</source>-->
+    </sources>
+    <resources>
+        <resource>ear/pom.xml</resource>
+        <resource>ejb/pom.xml</resource>
+        <resource>ejb/src/main/java/HelloBean.java</resource>
+        <resource>ejb/src/main/java/HelloLocal.java</resource>
+        <resource>war/pom.xml</resource>
+        <resource>war/src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>war/src/main/webapp/index.jsp</resource>
+        <resource>war/src/main/java/HelloController.java</resource>
+        <resource>war/src/main/resources/messages_en.properties</resource>
+    </resources>
+</archetype>

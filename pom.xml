@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>javaee5-jboss-maven-archetype</groupId>
+    <artifactId>javaee5-jboss-maven-archetype</artifactId>
+    <version>1.0</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.1</version>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <description>A Java EE 5 JBoss simple maven archetype</description>
+    <name>Archetype - javaee5-jboss-maven-archetype</name>
+    <url>http://javaee5-maven-archetype.googlecode.com</url>
+
+    <developers>
+        <developer>
+            <id>jasondevj</id>
+            <name>Jason Jebanesan</name>
+            <roles>
+                <role>creator</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <contributors/>
+
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <inceptionYear>2011</inceptionYear>
+</project>
