@@ -21,7 +21,7 @@
 
     <description>A Java EE 5 JBoss simple maven archetype</description>
     <name>Archetype - javaee5-jboss-maven-archetype</name>
-    <url>http://javaee5-maven-archetype.googlecode.com</url>
+    <url>https://github.com/jasondevj/javaee5-jboss-maven-archetype</url>
 
     <developers>
         <developer>
