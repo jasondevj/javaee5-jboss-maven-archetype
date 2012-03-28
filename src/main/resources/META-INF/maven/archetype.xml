@@ -10,10 +10,20 @@
         <resource>ejb/pom.xml</resource>
         <resource>ejb/src/main/java/HelloBean.java</resource>
         <resource>ejb/src/main/java/HelloLocal.java</resource>
+
+        <resource>ejb-test/pom.xml</resource>
+        <resource>ejb-test/src/main/java/HelloBeanMock.java</resource>
+
         <resource>war/pom.xml</resource>
         <resource>war/src/main/webapp/WEB-INF/web.xml</resource>
         <resource>war/src/main/webapp/index.jsp</resource>
         <resource>war/src/main/java/HelloController.java</resource>
         <resource>war/src/main/resources/messages_en.properties</resource>
+
+        <resource>war-test/pom.xml</resource>
+        <resource>war-test/src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>war-test/src/main/webapp/index.jsp</resource>
+        <resource>war-test/src/main/java/HelloController.java</resource>
+        <resource>war-test/src/main/resources/messages_en.properties</resource>
     </resources>
 </archetype>

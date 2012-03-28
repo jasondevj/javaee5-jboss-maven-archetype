@@ -38,12 +38,11 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate</artifactId>
             <version>3.2.4.ga</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-annotaions</artifactId>
-            <version>3.0.0.ga</version>
+            <artifactId>hibernate-annotations</artifactId>
+            <version>3.3.0.ga</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

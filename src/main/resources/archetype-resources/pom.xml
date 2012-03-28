@@ -13,6 +13,8 @@
         <module>ejb</module>
         <module>war</module>
         <module>ear</module>
+        <module>ejb-test</module>
+        <module>war-test</module>
     </modules>
 
     <build>
